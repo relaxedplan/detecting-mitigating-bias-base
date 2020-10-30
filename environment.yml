@@ -1,0 +1,16 @@
+# run: conda env create --file environment.yml
+name: bias-project
+dependencies:
+- python>=3.5
+- anaconda
+- pip
+- pip:
+  # works for regular pip packages
+  - scikit-learn
+  - aif360
+  - pandas
+  - lightgbm
+  - shap
+  - BlackBoxAuditing
+  - seaborn
+  - matplotlib
